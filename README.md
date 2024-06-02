@@ -182,6 +182,8 @@ JOIN Dosen ON KRSMahasiswa.kd_ds = Dosen.kd_ds;
 ## OUTPUTNYA
 ![alt text](<ss/ss 9 join table krs.png>)
 
+##  Buat laporan praktikum yang berisi, langkah-langkah praktikum beserta screenshot yang sudah dilakukan dalam bentuk dokumen.
+https://drive.google.com/file/d/1LxbfIJaI1zPnQ8daEnOkM6YV6fVmZN1p/view?usp=drivesdk
 
 ## *SELESAI*
 
