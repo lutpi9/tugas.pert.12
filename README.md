@@ -135,6 +135,15 @@ FROM Mahasiswa INNER JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
 ## OUTPUTNYA
 ![alt text](<ss/ss 6 join table mahasiswa dn dosen.png>)
 
+*LEFT JOIN table Mahasiswa dan Dosen*
+```
+SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
+FROM Mahasiswa LEFT JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
+```
+
+## OUTPUTNYA
+![alt text](<ss/ss 7 left table mahasiswa dan dosen.png>)
+
 
 *Lakukan join tabel Matakuliah dan Dosen*
 ```
@@ -147,14 +156,6 @@ LEFT JOIN Dosen ON JadwalMengajar.kd_ds = Dosen.kd_ds;
 ## OUTPUTNYA
 ![alt text](<ss/ss join matakuliah dan dosen.png>)
 
-*LEFT JOIN table Mahasiswa dan Dosen*
-```
-SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
-FROM Mahasiswa LEFT JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
-```
-
-## OUTPUTNYA
-![alt text](<ss/ss 7 left table mahasiswa dan dosen.png>)
 
 
 *Lakukan join table JadwalMengajar, Dosen, dan Mata kuliah*
